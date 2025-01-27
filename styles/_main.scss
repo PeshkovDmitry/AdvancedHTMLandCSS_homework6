@@ -1,0 +1,63 @@
+.main_logo {
+    width: $totalWidth;
+    margin: 0px auto;
+    background-color: #f1e4e6;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main-menu {
+    width: 232px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: $backgroundColor1;
+    filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
+    padding: 32px;
+}
+
+.main-menu_header1 {
+    display: block;
+    margin-bottom: 24px;
+    color: #000;
+    @include Lato700n(14px);
+    
+}
+
+.main-menu_header2 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: $contentColor1;
+    @include Lato400n(14px);
+}
+
+.main-menu_item {
+    display: block;
+    margin-left: 22px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    color: #6f6e6e;
+    @include Lato400n(14px);
+}
+
+.main_banner {
+    margin: 290px 331px 381px 63px;
+    border-left: 12px solid $contentColor1;
+    padding-left: 16px;
+}
+
+.main_logo_header1 {
+    color: $contentColor2;
+    @include Lato900n(48px);
+}
+
+.main_logo_header2 {
+    color: $contentColor2;
+    @include Lato700n(32px);
+}
+
+.main_logo_span {
+    color: $contentColor1;
+}

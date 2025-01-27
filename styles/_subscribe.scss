@@ -1,0 +1,97 @@
+.subscribe {
+    width: $totalWidth;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.subscribe-background {
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+    background-color: $backgroundColor2;
+    position: absolute;
+    z-index: -1;
+}
+
+.subscribe-info {
+    width: 360px;
+    margin-top: 97px;
+    margin-bottom: 126px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-info__image {
+    width: 96px;
+    height: 96px;
+}
+
+.subscribe-info_text {
+    margin-top: 30px;
+    height: 99px;
+    color: $backgroundColor2;
+    text-align: center;
+    @include Lato400n(20px);
+}
+
+.subscribe-info_text__italic {
+    font-style: italic;
+}
+
+.subscribe-buttongroup {
+    width: 557px;
+    margin-top: 150px;
+    margin-right: 230px;
+    margin-bottom: 156px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-buttongroup_h3 {
+    color: $backgroundColor2;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+    /* 40.128px */
+}
+
+.subscribe-buttongroup_p {
+    color: $backgroundColor2;
+    @include Lato400n(18px, 167.2%);
+}
+
+.subscribe-buttongroup_form {
+    margin-top: 32px;
+}
+
+.subscribe-buttongroup__input {
+    width: 256px;
+    height: 49px;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    padding-left: 22px;
+    background-color: #e1e1e1;
+    color: $backgroundColor2;
+    opacity: 0.671;
+    @include Lato400n(14px);
+}
+
+.subscribe-buttongroup_button {
+    width: 100px;
+    height: 49px;
+    margin-left: -5px;
+    border-radius: 0px 25px 25px 0px;
+    border: none;
+    background-color: $contentColor1;
+    color: $backgroundColor1;
+    text-align: center;
+    @include Lato400n(14px);
+}

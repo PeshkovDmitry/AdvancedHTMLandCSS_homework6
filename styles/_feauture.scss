@@ -1,0 +1,37 @@
+.feature {
+    width: $totalWidth;
+    margin: 0px auto;
+    background-color: $backgroundColor2;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-item {
+    width: 360px;
+    margin: 103px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-item__header {
+    margin-top: 28px;
+    margin-bottom: 16px;
+    color: $contentColor3;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature-item__text {
+    color: $contentColor3;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

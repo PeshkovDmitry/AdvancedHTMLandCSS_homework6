@@ -1,0 +1,54 @@
+.offer {
+    width: 1140px;
+    margin: 65px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.offer_for_men_background {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/offer_for_men.webp);
+}
+
+.offer_for_women_background {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/offer_for_women.webp);
+}
+
+.offer_for_kids_background {
+    width: 360px;
+    height: 260px;
+    background-image: url(../img/offer_for_kids.webp);
+}
+
+.offer_accesories_background {
+    width: 1140px;
+    height: 180px;
+    background-image: url(../img/offer-accesories.webp);
+}
+
+.filler {
+    background-color: rgba(33, 22, 22, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_header3 {
+    color: $contentColor1;
+    @include Lato700n(24px);
+    
+}
+
+.offer_header4 {
+    color: $backgroundColor1;
+    text-align: center;
+    @include Lato400n(16px);
+}

@@ -1,42 +1,31 @@
 @font-face {
   font-family: "Lato";
-  src: url("./fonts/Lato-Regular.woff2") format("woff2");
+  src: url("../fonts/Lato-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Lato";
-  src: url("./fonts/Lato-Bold.woff2") format("woff2");
+  src: url("../fonts/Lato-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Lato";
-  src: url("./fonts/Lato-Light.woff2") format("woff2");
+  src: url("../fonts/Lato-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "./fonts/Lato";
+  font-family: "../fonts/Lato";
   src: url("Lato-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-.body {
-  scroll-behavior: smooth;
-  background: #fff;
-}
-
 .header {
   width: 1600px;
   margin: 0px auto;
@@ -183,25 +172,25 @@
 .offer_for_men_background {
   width: 360px;
   height: 260px;
-  background-image: url(./img/offer_for_men.webp);
+  background-image: url(../img/offer_for_men.webp);
 }
 
 .offer_for_women_background {
   width: 360px;
   height: 260px;
-  background-image: url(./img/offer_for_women.webp);
+  background-image: url(../img/offer_for_women.webp);
 }
 
 .offer_for_kids_background {
   width: 360px;
   height: 260px;
-  background-image: url(./img/offer_for_kids.webp);
+  background-image: url(../img/offer_for_kids.webp);
 }
 
 .offer_accesories_background {
   width: 1140px;
   height: 180px;
-  background-image: url(./img/offer-accesories.webp);
+  background-image: url(../img/offer-accesories.webp);
 }
 
 .filler {
@@ -240,24 +229,24 @@
 
 .products_header3 {
   color: #222;
+  margin-bottom: 6px;
+  text-align: center;
   font-family: Lato;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 6px;
-  text-align: center;
 }
 
 .products_subheader {
   color: #9f9f9f;
+  margin-bottom: 48px;
+  text-align: center;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 48px;
-  text-align: center;
 }
 
 .cards {
@@ -305,34 +294,34 @@
 .card_header {
   width: 315px;
   color: #000;
+  margin: 25px 18px 0px;
   font-family: Lato;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 25px 18px 0px;
 }
 
 .card_text {
   width: 315px;
   color: #5d5d5d;
+  margin: 16px 18px;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin: 16px 18px;
 }
 
 .card_price {
   width: 315px;
   color: #f16d7f;
+  margin: 18px 18px 20px;
   font-family: Lato;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 18px 18px 20px;
 }
 
 .products_button_container {
@@ -471,7 +460,8 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 167.2%; /* 40.128px */
+  line-height: 167.2%;
+  /* 40.128px */
 }
 
 .subscribe-buttongroup_p {
@@ -495,12 +485,12 @@
   padding-left: 22px;
   background-color: #e1e1e1;
   color: #222224;
+  opacity: 0.671;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  opacity: 0.671;
 }
 
 .subscribe-buttongroup_button {
@@ -560,4 +550,15 @@
 
 .footer_icons-icon:hover svg {
   fill: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.body {
+  scroll-behavior: smooth;
+  background: #fff;
 }/*# sourceMappingURL=style.css.map */

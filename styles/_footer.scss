@@ -1,0 +1,38 @@
+.footer {
+    width: $totalWidth;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: $backgroundColor2;
+}
+
+.footer-text {
+    margin: 30px auto 30px 235px;
+    color: $contentColor3;
+    @include Lato400n(16px);
+}
+
+.footer_icons {
+    margin: 24px 230px 23px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.footer_icons-icon {
+    height: 32px;
+    width: 32px;
+    background-color: $backgroundColor1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_icons-icon:hover {
+    background-color: $contentColor1
+}
+
+.footer_icons-icon:hover svg {
+    fill: $backgroundColor1;
+}

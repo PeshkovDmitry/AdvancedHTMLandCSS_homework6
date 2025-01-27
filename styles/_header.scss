@@ -1,0 +1,47 @@
+.header {
+    width: $totalWidth;
+    margin: 0px auto;
+    background-color: $contentColor2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_header_group {
+    margin: 18px auto 19px 231px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 41px;
+}
+
+.right_header_group {
+    width: 159px;
+    margin: 26px 240px 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 41px;
+}
+
+.header_button {
+    background: none;
+    border: none;
+}
+
+.position_relative {
+    position: relative;
+}
+
+.basket-count {
+    position: absolute;
+    right: -10px;
+    top: -9px;
+    height: 19px;
+    width: 19px;
+    text-align: center;
+    background-color: $contentColor1;
+    border-radius: 50%;
+    color: $backgroundColor1;
+    @include Lato400n(12px);
+    
+}
