@@ -12,21 +12,29 @@
     justify-content: space-between;
     align-items: end;
     gap: 41px;
+    height: 38px;
 }
 
-.right_header_group {
-    width: 159px;
-    margin: 26px 240px 20px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 41px;
+.left_header_logo {
+    height: 38px;
 }
 
 .header_button {
     background: none;
     border: none;
 }
+
+.right_header_group {
+    margin: 19px 230px 19px auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 38px;
+}
+
+
 
 .position_relative {
     position: relative;
