@@ -1,0 +1,19 @@
+.product_description_container {
+    position: relative;
+    width: $totalWidth1;
+    margin: 0px auto;
+}
+
+.product_description {
+    width: $totalWidth1;
+    // margin: 0px auto;
+    background-color: $backgroundColor1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    stroke-width: 1px;
+    stroke: #eaeaea;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: -65px;
+}

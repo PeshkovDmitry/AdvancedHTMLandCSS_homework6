@@ -5,3 +5,24 @@
     display: flex;
     justify-content: space-between;
 }
+
+.breadcrumb_left_title {
+    padding-top: 59px;
+    padding-left: 230px;
+    padding-bottom: 60px;
+    color: $contentColor1;
+    @include Lato400n(24px);
+}
+
+.breadcrumb_right_title {
+    padding-top: 65px;
+    padding-right: 230px;
+    padding-bottom: 66px;
+    color: #636363;
+    @include Lato400n(14px);
+}
+
+.breadcrumb_right_title_span {
+    color: $contentColor1;
+    @include Lato700n(14px);
+}
