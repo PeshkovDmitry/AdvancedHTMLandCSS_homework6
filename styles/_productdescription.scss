@@ -20,12 +20,13 @@
 
     &_small_title {
         margin-top: 65px;
-        color: $contentColor1;
-        @include Lato400n(14px);
+        color: #4D4D4D;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        @include Lato400n(14px, 17px);
     }
 
     &_divider {
-        margin-top: 29px;
+        margin-top: 13px;
         width: 63px;
         height: 3px;
         background-color: #EF5B70;
@@ -37,6 +38,36 @@
         @include Lato400n(18px);
     }
 
+    &_text {
+        margin-top: 48px;
+        @include Lato400n(14px);
+        text-align: center;
+        color: #5e5e5e;
+    }
+
+    &_price {
+        margin-top: 32px;
+        text-align: center;
+        color: #EF5B70;
+        @include Lato400n(24px);
+    }
+
+    &_selector {
+        margin-top: 192px;
+        width: 373px;
+        display: flex;
+        justify-content: space-between;
+
+        &_text {
+            color: #6F6E6E;
+            @include Lato400n(14px, 17px);
+
+
+        }
+    }
+
+
+
 
 
 
@@ -44,4 +75,3 @@
 
 
 }
-
