@@ -58,14 +58,14 @@
 .card_header {
     width: 315px;
     color: $contentColor5;
-    margin: 25px 18px 0px;
+    margin: 20px 18px 0px;
     @include Lato400n(13px);
 }
 
 .card_text {
     width: 315px;
     color: $contentColor13;
-    margin: 16px 18px;
+    margin: 13px 18px;
     @include Lato300n(14px);
 }
 

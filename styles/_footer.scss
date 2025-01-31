@@ -10,6 +10,7 @@
 .footer-text {
     margin: 30px auto 30px 235px;
     color: $contentColor3;
+    letter-spacing: 0.6px;
     @include Lato400n(16px);
 }
 

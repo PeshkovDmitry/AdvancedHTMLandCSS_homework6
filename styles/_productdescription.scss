@@ -2,7 +2,7 @@
     position: relative;
     width: $totalWidth1;
     margin: 0px auto;
-    height: 571px;
+    height: 569px;
 
     &_container {
         width: $totalWidth1;
@@ -18,13 +18,13 @@
 
     &_small_title {
         margin-top: 65px;
-        color: $contentColor7;
+        color: $contentColor1;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         @include Lato400n(14px, 17px);
     }
 
     &_divider {
-        margin-top: 13px;
+        margin-top: 12px;
         width: 63px;
         height: 3px;
         background-color: $backgroundColor6;
@@ -32,19 +32,22 @@
 
     &_big_title {
         margin-top: 12px;
+        margin-right: 2px;
         color: $contentColor7;
         @include Lato400n(18px, 22px);
     }
 
     &_text {
         margin-top: 48px;
-        @include Lato400n(14px, 17px);
         text-align: center;
         color: $contentColor8;
+        letter-spacing: -0.15px;
+        @include Lato400n(14px, 17px);
     }
 
     &_price {
         margin-top: 32px;
+        margin-right: 20px;
         text-align: center;
         color: $contentColor9;
         @include Lato400n(24px, 29px);
@@ -60,12 +63,13 @@
 
     &_selector {
         margin-top: 65px;
-        width: 373px;
+        margin-left: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content:center;
 
         &_text {
             color: $contentColor6;
+            letter-spacing: 2px;
             @include Lato400n(14px, 17px);
         }
     }
@@ -79,11 +83,17 @@
         background-color: $backgroundColor1;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content:space-between;
+
+        &_logo {
+            margin-top: 7px;
+            margin-left: 21px;
+        }
 
         &_text {
-            @include Lato400n(16px, 19px);
+            margin-right: 55px;
             color: $contentColor11;
+            @include Lato400n(16px, 19px);
         }
 
     }

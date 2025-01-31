@@ -303,7 +303,7 @@
 .card_header {
   width: 315px;
   color: #000;
-  margin: 25px 18px 0px;
+  margin: 20px 18px 0px;
   font-family: Lato;
   font-size: 13px;
   font-style: normal;
@@ -314,7 +314,7 @@
 .card_text {
   width: 315px;
   color: #5d5d5d;
-  margin: 16px 18px;
+  margin: 13px 18px;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
@@ -406,6 +406,7 @@
 
 .subscribe {
   width: 1600px;
+  height: 447px;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
@@ -432,6 +433,7 @@
 }
 
 .subscribe-info__image {
+  margin-right: 16px;
   width: 96px;
   height: 96px;
 }
@@ -465,12 +467,12 @@
 .subscribe-buttongroup_h3 {
   color: #222224;
   text-align: center;
+  height: 28px;
   font-family: Lato;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 167.2%;
-  /* 40.128px */
 }
 
 .subscribe-buttongroup_p {
@@ -483,11 +485,11 @@
 }
 
 .subscribe-buttongroup_form {
-  margin-top: 32px;
+  margin-top: 33px;
 }
 
 .subscribe-buttongroup__input {
-  width: 256px;
+  width: 238px;
   height: 49px;
   border-radius: 25px 0px 0px 25px;
   border: none;
@@ -530,6 +532,7 @@
 .footer-text {
   margin: 30px auto 30px 235px;
   color: #fbfbfb;
+  letter-spacing: 0.6px;
   font-family: Lato;
   font-size: 16px;
   font-style: normal;
@@ -607,7 +610,7 @@
   display: flex;
   justify-content: center;
   padding-top: 11px;
-  padding-bottom: 53px;
+  padding-bottom: 42px;
   background-color: #F7F7F7;
 }
 .image_slide_img {
@@ -618,7 +621,7 @@
   position: relative;
   width: 1141px;
   margin: 0px auto;
-  height: 571px;
+  height: 569px;
 }
 .product_description_container {
   width: 1141px;
@@ -632,7 +635,7 @@
 }
 .product_description_small_title {
   margin-top: 65px;
-  color: #4D4D4D;
+  color: #f16d7f;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Lato;
   font-size: 14px;
@@ -641,13 +644,14 @@
   line-height: 17px;
 }
 .product_description_divider {
-  margin-top: 13px;
+  margin-top: 12px;
   width: 63px;
   height: 3px;
   background-color: #EF5B70;
 }
 .product_description_big_title {
   margin-top: 12px;
+  margin-right: 2px;
   color: #4D4D4D;
   font-family: Lato;
   font-size: 18px;
@@ -657,16 +661,18 @@
 }
 .product_description_text {
   margin-top: 48px;
+  text-align: center;
+  color: #5e5e5e;
+  letter-spacing: -0.15px;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 17px;
-  text-align: center;
-  color: #5e5e5e;
 }
 .product_description_price {
   margin-top: 32px;
+  margin-right: 20px;
   text-align: center;
   color: #EF5B70;
   font-family: Lato;
@@ -684,12 +690,13 @@
 }
 .product_description_selector {
   margin-top: 65px;
-  width: 373px;
+  margin-left: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .product_description_selector_text {
   color: #6f6e6e;
+  letter-spacing: 2px;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
@@ -705,15 +712,20 @@
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.product_description_button_logo {
+  margin-top: 7px;
+  margin-left: 21px;
 }
 .product_description_button_text {
+  margin-right: 55px;
+  color: #F26376;
   font-family: Lato;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 19px;
-  color: #F26376;
 }
 
 .blank128 {
