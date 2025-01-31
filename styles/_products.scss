@@ -11,7 +11,7 @@
 }
 
 .products_subheader {
-    color: #9f9f9f;
+    color: $contentColor12;
     margin-bottom: 48px;
     text-align: center;
     @include Lato400n(14px);
@@ -24,7 +24,7 @@
 }
 
 .card {
-    background-color: #f8f8f8;
+    background-color: $backgroundColor7;
     position: relative;
 }
 
@@ -33,7 +33,7 @@
     height: 420px;
     position: absolute;
     top: 0px;
-    background-color: rgba(58, 56, 56, 0.86);
+    background-color: $backgroundColor8;
     display: none;
     justify-content: center;
     align-items: center;
@@ -57,14 +57,14 @@
 
 .card_header {
     width: 315px;
-    color: #000;
+    color: $contentColor5;
     margin: 25px 18px 0px;
     @include Lato400n(13px);
 }
 
 .card_text {
     width: 315px;
-    color: #5d5d5d;
+    color: $contentColor13;
     margin: 16px 18px;
     @include Lato300n(14px);
 }
@@ -86,7 +86,7 @@
     width: 212px;
     margin-top: 48px;
     margin-bottom: 60px;
-    border: 2px solid #ff6a6a;
+    border: 2px solid $borderColor1;
     background-color: $backgroundColor1;
 }
 
@@ -96,7 +96,7 @@
 
 .browse_all_button_text {
     margin: 15px auto;
-    color: #f26376;
+    color: $contentColor14;
     text-align: center;
     @include Lato400n(16px);
 }

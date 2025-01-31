@@ -10,25 +10,24 @@
 
 <body>
 	<h1 style="display:none;">My internet shop</h1>
-
 	<header class="header">
-		<div class="left_header_group">
-			<a href="#" class="left_header_logo">
+		<div class="header_left_group">
+			<a href="#" class="header_left_group_logo">
 				<img src="./img/Logo.webp" alt="Логотип сайта">
 			</a>
-			<button class="header_button">
+			<button class="header_left_group_button">
 				<img src="./img/Find.webp" width="26" height="26" alt="Значок поиска">
 			</button>
 		</div>
-		<div class="right_header_group">
-			<button class="header_button" id="mainmenubutton">
+		<div class="header_right_group">
+			<button class="header_right_group_menu" id="mainmenubutton">
 				<img src="./img/Menu.webp" width="32" height="23" alt="Значок меню">
 			</button>
-			<button class="header_button hidden">
+			<button class="header_right_group_login hidden">
 				<img src="./img/Account.webp" alt="Значок входа в аккаунт">
 			</button>
-			<div class="header_button hidden position_relative">
-				<div class="basket-count">5</div>
+			<div class="header_right_group_basket hidden">
+				<div class="header_right_group_basket_count">5</div>
 				<img src="./img/Basket.webp" alt="Значок корзины">
 			</div>
 		</div>
@@ -36,11 +35,11 @@
 	
 	<section class="breadcrumb">
 		<p class="breadcrumb_left_title">NEW ARRIVALS</p>
-		<p class="breadcrumb_right_title">HOME / MEN / <span class="breadcrumb_right_title_span">ARRIVALS</span></p>
+		<p class="breadcrumb_right_title">HOME / MEN / <span class="breadcrumb_right_title_span">NEW ARRIVALS</span></p>
 	</section>
 
 	<section class="image_slide">
-		<img src="img/Girl.webp" alt="Фото девушки"/>
+		<img class="image_slide_img" src="img/Girl.webp" alt="Фото девушки"/>
 	</section>
 
 	<section class="product_description">
@@ -54,18 +53,17 @@
 				Completely <br/> visualize parallel core competencies rather than exceptional portals.
 			</p>
 			<p class="product_description_price">$561</p>
+			<div class="product_description_line"></div>
 			<div class="product_description_selector">
 				<div class="product_description_selector_text">CHOOSE COLOR ⌵</div>
 				<div class="product_description_selector_text">CHOOSE SIZE ⌵</div>	
 				<div class="product_description_selector_text">QUANTITY ⌵</div>
 			</div>
-			<button class="add-to-card-button">
-				<img src="./img/Basket.webp" alt="Значок добавления в корзину">
-				Add to&nbsp;Card
+			<button class="product_description_button">
+				<img src="./img/ColoredBasket.webp" alt="Значок добавления в корзину">
+				<p class="product_description_button_text">Add to&nbsp;Card</p>
 			</button>
-	
 		</div>
-
 	</section>	
 
 
@@ -118,6 +116,8 @@
 			</div>
 		</div>
 	</section>
+
+	<div class="blank128"></div>	
 	
 	<section class="subscribe">
 		<img class="subscribe-background" src="./img/Sea.webp" alt="Море на заднем плане">
@@ -136,6 +136,8 @@
 			</form>
 		</div>
 	</section>
+
+
 	
 	<footer class="footer">
 		<p class="footer-text">&copy;&nbsp;2022 Brand All Rights Reserved.</p>

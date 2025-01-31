@@ -5,7 +5,9 @@
     justify-content: center;
     padding-top: 11px;
     padding-bottom: 53px;
-    background-color: #F7F7F7;
-    stroke-width: 1px;
-    stroke: #eaeaea;
+    background-color: $backgroundColor4;
+
+    &_img {
+        margin-left: 23px;
+    }
 }

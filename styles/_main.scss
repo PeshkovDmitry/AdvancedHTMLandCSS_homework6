@@ -1,7 +1,7 @@
 .main_logo {
     width: $totalWidth;
     margin: 0px auto;
-    background-color: #f1e4e6;
+    background-color: $backgroundColor5;
     display: flex;
     justify-content: center;
     position: relative;
@@ -20,7 +20,7 @@
 .main-menu_header1 {
     display: block;
     margin-bottom: 24px;
-    color: #000;
+    color: $contentColor5;
     @include Lato700n(14px);
     
 }
@@ -38,7 +38,7 @@
     margin-left: 22px;
     margin-top: 11px;
     margin-bottom: 11px;
-    color: #6f6e6e;
+    color: $contentColor6;
     @include Lato400n(14px);
 }
 

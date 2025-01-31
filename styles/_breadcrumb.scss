@@ -1,28 +1,37 @@
 .breadcrumb {
     width: $totalWidth;
     margin: 0px auto;
-    background-color: #F8F3F4;
+    background-color: $backgroundColor3;
     display: flex;
     justify-content: space-between;
+
+    &_left_title {
+        padding-top: 59px;
+        padding-left: 230px;
+        padding-bottom: 60px;
+        color: $contentColor1;
+        @include Lato400n(24px);
+    }
+    
+    &_right_title {
+        padding-top: 65px;
+        padding-right: 235px;
+        padding-bottom: 66px;
+        color: $contentColor4;
+        letter-spacing: 0.2px;
+        @include Lato300n(14px);
+
+        &_span {
+            color: $contentColor1;
+            letter-spacing: 0.2px;
+            @include Lato700n(14px);
+        }
+
+    }
+
+
+
 }
 
-.breadcrumb_left_title {
-    padding-top: 59px;
-    padding-left: 230px;
-    padding-bottom: 60px;
-    color: $contentColor1;
-    @include Lato400n(24px);
-}
 
-.breadcrumb_right_title {
-    padding-top: 65px;
-    padding-right: 230px;
-    padding-bottom: 66px;
-    color: #636363;
-    @include Lato400n(14px);
-}
 
-.breadcrumb_right_title_span {
-    color: $contentColor1;
-    @include Lato700n(14px);
-}
