@@ -1,7 +1,7 @@
 .main_logo {
     width: $totalWidth;
     margin: 0px auto;
-    background-color: $backgroundColor5;
+    background-color: $contentColor3;
     display: flex;
     justify-content: center;
     position: relative;
@@ -12,7 +12,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: $backgroundColor1;
+    background-color: $contentColor3;
     filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
     padding: 32px;
 }
@@ -38,7 +38,7 @@
     margin-left: 22px;
     margin-top: 11px;
     margin-bottom: 11px;
-    color: $contentColor6;
+    color: $contentColor1;
     @include Lato400n(14px);
 }
 

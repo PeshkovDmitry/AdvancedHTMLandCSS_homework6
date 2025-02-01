@@ -7,7 +7,7 @@
     &_container {
         width: $totalWidth1;
         // margin: 0px auto;
-        background-color: $backgroundColor1;
+        background-color: $contentColor3;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -27,7 +27,7 @@
         margin-top: 12px;
         width: 63px;
         height: 3px;
-        background-color: $backgroundColor6;
+        background-color: $contentColor1;
     }
 
     &_big_title {
@@ -40,7 +40,7 @@
     &_text {
         margin-top: 48px;
         text-align: center;
-        color: $contentColor8;
+        color: $contentColor7;
         letter-spacing: -0.15px;
         @include Lato400n(14px, 17px);
     }
@@ -49,7 +49,7 @@
         margin-top: 32px;
         margin-right: 20px;
         text-align: center;
-        color: $contentColor9;
+        color: $contentColor1;
         @include Lato400n(24px, 29px);
     }
 
@@ -57,7 +57,7 @@
         width: 642px;
         height: 1px;
         margin-top: 64px;
-        background: $contentColor9;
+        background: $contentColor1;
         border: 1px solid #EAEAEA;
     }
 
@@ -69,16 +69,18 @@
         justify-content: center;
         gap: 22px;
 
-        &_text {
+        &_item {
             display: flex;
-            color: $contentColor6;
-            // letter-spacing: 2px;
-            @include Lato400n(14px, 17px);
-
             &_narrow {
                 margin-top: 5px;
                 margin-left: 9px;
             }
+
+            &_text {
+                color: $contentColor7;
+                @include Lato400n(14px, 17px);
+            }
+
         }
     }
 
@@ -87,8 +89,8 @@
         margin-bottom: 65px;
         width: 212px;
         height: 48px;
-        border: 1px solid $contentColor10;
-        background-color: $backgroundColor1;
+        border: 1px solid $contentColor1;
+        background-color: $contentColor3;
         display: flex;
         align-items: center;
         justify-content:space-between;
@@ -100,7 +102,7 @@
 
         &_text {
             margin-right: 55px;
-            color: $contentColor11;
+            color: $contentColor1;
             @include Lato400n(16px, 19px);
         }
 

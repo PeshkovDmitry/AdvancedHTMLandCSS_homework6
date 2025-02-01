@@ -11,7 +11,7 @@
 }
 
 .products_subheader {
-    color: $contentColor12;
+    color: $contentColor7;
     margin-bottom: 48px;
     text-align: center;
     @include Lato400n(14px);
@@ -24,7 +24,7 @@
 }
 
 .card {
-    background-color: $backgroundColor7;
+    background-color: $contentColor3;
     position: relative;
 }
 
@@ -33,7 +33,7 @@
     height: 420px;
     position: absolute;
     top: 0px;
-    background-color: $backgroundColor8;
+    background-color: $contentColor7;
     display: none;
     justify-content: center;
     align-items: center;
@@ -47,11 +47,11 @@
     display: flex;
     align-items: center;
     gap: 11px;
-    border-color: $backgroundColor1;
+    border-color: $contentColor3;
     /* border-width: 2px; */
     background: none;
     padding: 11px 16px 13px 13px;
-    color: $backgroundColor1;
+    color: $contentColor3;
     @include Lato400n(14px);
 }
 
@@ -64,7 +64,7 @@
 
 .card_text {
     width: 315px;
-    color: $contentColor13;
+    color: $contentColor7;
     margin: 13px 18px;
     @include Lato300n(14px);
 }
@@ -86,8 +86,8 @@
     width: 212px;
     margin-top: 48px;
     margin-bottom: 60px;
-    border: 2px solid $borderColor1;
-    background-color: $backgroundColor1;
+    border: 2px solid $contentColor1;
+    background-color: $contentColor3;
 }
 
 .browse_all_button:hover {
@@ -96,11 +96,11 @@
 
 .browse_all_button_text {
     margin: 15px auto;
-    color: $contentColor14;
+    color: $contentColor1;
     text-align: center;
     @include Lato400n(16px);
 }
 
 .browse_all_button:hover .browse_all_button_text {
-    color: $backgroundColor1;
+    color: $contentColor3;
 }

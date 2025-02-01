@@ -1,7 +1,7 @@
 .breadcrumb {
     width: $totalWidth;
     margin: 0px auto;
-    background-color: $backgroundColor3;
+    background-color: $contentColor3;
     display: flex;
     justify-content: space-between;
 
@@ -17,7 +17,7 @@
         padding-top: 65px;
         padding-right: 235px;
         padding-bottom: 66px;
-        color: $contentColor4;
+        color: $contentColor7;
         letter-spacing: 0.2px;
         @include Lato300n(14px);
 
