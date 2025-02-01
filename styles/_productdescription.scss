@@ -63,14 +63,22 @@
 
     &_selector {
         margin-top: 65px;
-        margin-left: 10px;
+        margin-right: 20px;
+        width: 373px;
         display: flex;
-        justify-content:center;
+        justify-content: center;
+        gap: 22px;
 
         &_text {
+            display: flex;
             color: $contentColor6;
-            letter-spacing: 2px;
+            // letter-spacing: 2px;
             @include Lato400n(14px, 17px);
+
+            &_narrow {
+                margin-top: 5px;
+                margin-left: 9px;
+            }
         }
     }
 

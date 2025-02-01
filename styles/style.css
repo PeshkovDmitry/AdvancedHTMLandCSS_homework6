@@ -690,18 +690,24 @@
 }
 .product_description_selector {
   margin-top: 65px;
-  margin-left: 10px;
+  margin-right: 20px;
+  width: 373px;
   display: flex;
   justify-content: center;
+  gap: 22px;
 }
 .product_description_selector_text {
+  display: flex;
   color: #6f6e6e;
-  letter-spacing: 2px;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 17px;
+}
+.product_description_selector_text_narrow {
+  margin-top: 5px;
+  margin-left: 9px;
 }
 .product_description_button {
   margin-top: 48px;
