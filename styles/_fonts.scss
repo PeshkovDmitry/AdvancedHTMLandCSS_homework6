@@ -46,6 +46,14 @@
     line-height: $line-height;
 }
 
+@mixin Lato600n($size, $line-height: normal) {
+    font-family: Lato;
+    font-size: $size;
+    font-style: normal;
+    font-weight: 600;
+    line-height: $line-height;
+}
+
 @mixin Lato700n($size, $line-height: normal) {
     font-family: Lato;
     font-size: $size;

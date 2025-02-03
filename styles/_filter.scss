@@ -1,0 +1,96 @@
+.catalog_container {
+    position: relative;
+    width: $totalWidth;
+    margin: 0px auto;
+}
+
+.filter {
+    position: absolute;
+    width: $totalWidth1;
+    margin-top: 39px;
+    margin-left: 230px;
+    display: flex;
+    z-index: 1;
+
+    &_left {
+        width: 390px;
+        
+        &_details {
+            width: 360px;
+
+            &[open] {
+                box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+            }
+
+        }
+
+        &_summary {
+            display: flex;
+            padding-top: 13px;
+            padding-left: 16px;
+            padding-bottom: 16px;
+
+            &_text {
+                color: $contentColor5;
+                @include Lato600n(14px);
+            }
+
+            &_logo {
+                margin-top: 5px;
+                margin-left: 11px;
+            }
+
+        }
+
+        &_content {
+            padding-left: 16px;
+            padding-right: 16px;
+            background-color: $contentColor3;
+
+            &_summary {
+                border-left-color: $contentColor1;
+                border-left-width:  5px;
+                color: $contentColor1;
+                @include Lato400n(14px);
+                
+            }
+
+            &_items {
+                margin: 24px 16px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                gap: 11px;
+
+            }
+
+            &_item {
+                color: $contentColor7;
+                @include Lato400n(14px);
+            }
+
+
+
+
+
+        }
+        
+        
+
+    }
+
+
+
+
+    &_right {
+        background-color: greenyellow;
+    }
+}
+
+.filter_left_details[open] summary p {
+    color: $contentColor1;
+}
+
+.filter_left_details[open] summary svg path {
+    fill: $contentColor1;
+}
