@@ -31,7 +31,7 @@
             padding-bottom: 16px;
 
             &_text {
-                color: $contentColor5;
+                color: $contentColor7;
                 @include Lato600n(14px);
             }
 
@@ -86,7 +86,37 @@
     }
 
     &_right {
-        background-color: greenyellow;
+        
+        &_details {
+            padding-left: 9px;
+            padding-top: 13px;
+            background-color: $contentColor3;
+
+            &[open] {
+                box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+            }
+
+        }
+
+        &_summary {
+            display: flex;
+
+            &_text {
+                @include Lato400n(14px);
+                color: $contentColor7;
+            }
+
+            &_logo {
+                margin-top: 7px;
+                margin-left: 10px;                    
+            }
+        }
+
+        &_content {
+            display: flex;
+            flex-direction: column;
+        }
+
     }
 }
 
