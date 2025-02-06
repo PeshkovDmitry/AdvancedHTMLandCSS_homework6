@@ -1,19 +1,22 @@
 .catalog_container {
     position: relative;
     width: $totalWidth;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
 }
 
 .filter {
     position: absolute;
     width: $totalWidth1;
-    margin-top: 39px;
-    margin-left: 230px;
+    margin-top: 37px;
+    margin-left: 215px;
     display: flex;
     z-index: 1;
 
     &_left {
         width: 390px;
+        
         
         &_details {
             width: 360px;
@@ -86,6 +89,20 @@
     }
 
     &_right {
+        display: flex;
+
+        &_trending {
+            width: 160px;
+            margin-left: 5px;
+        }
+
+        &_size {
+            width: 75px;
+        }
+
+        &_price {
+            width: 80px;
+        }
         
         &_details {
 
@@ -156,4 +173,8 @@
 
 .filter_left_content_details[open] summary {
     color: $contentColor1;
+}
+
+.catalog_pagination {
+    height: 182px;
 }

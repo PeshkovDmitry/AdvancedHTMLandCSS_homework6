@@ -739,14 +739,16 @@
 .catalog_container {
   position: relative;
   width: 1600px;
-  margin: 0px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
 }
 
 .filter {
   position: absolute;
   width: 1141px;
-  margin-top: 39px;
-  margin-left: 230px;
+  margin-top: 37px;
+  margin-left: 215px;
   display: flex;
   z-index: 1;
 }
@@ -819,6 +821,19 @@
   font-weight: 400;
   line-height: normal;
 }
+.filter_right {
+  display: flex;
+}
+.filter_right_trending {
+  width: 160px;
+  margin-left: 5px;
+}
+.filter_right_size {
+  width: 75px;
+}
+.filter_right_price {
+  width: 80px;
+}
 .filter_right_details {
   background-color: #fbfbfb;
 }
@@ -882,6 +897,10 @@
 
 .filter_left_content_details[open] summary {
   color: #f16d7f;
+}
+
+.catalog_pagination {
+  height: 182px;
 }
 
 .blank128 {
