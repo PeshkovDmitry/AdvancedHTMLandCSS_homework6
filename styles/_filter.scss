@@ -88,8 +88,7 @@
     &_right {
         
         &_details {
-            padding-left: 9px;
-            padding-top: 13px;
+
             background-color: $contentColor3;
 
             &[open] {
@@ -100,7 +99,10 @@
 
         &_summary {
             display: flex;
-
+            padding-top: 13px;
+            padding-left: 13px;
+            padding-right: 13px;
+            
             &_text {
                 @include Lato400n(14px);
                 color: $contentColor7;
@@ -115,6 +117,30 @@
         &_content {
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            gap: 6px;
+            padding-top: 7px;
+            padding-bottom: 11px;
+
+            &_checkbox {
+
+                -moz-appearance:none;
+                -webkit-appearance:none;
+                -o-appearance:none;
+                width: 13px;
+                height: 13px;
+                border: 1px solid #EBEBEB;
+                margin: auto 13px;
+
+                &_label {
+                    @include Lato400n(14px);
+                    color: $contentColor7;
+                }
+
+                &_container {
+                    display: flex;
+                }
+            }
         }
 
     }

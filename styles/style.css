@@ -820,8 +820,6 @@
   line-height: normal;
 }
 .filter_right_details {
-  padding-left: 9px;
-  padding-top: 13px;
   background-color: #fbfbfb;
 }
 .filter_right_details[open] {
@@ -829,6 +827,9 @@
 }
 .filter_right_summary {
   display: flex;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 .filter_right_summary_text {
   font-family: Lato;
@@ -845,6 +846,30 @@
 .filter_right_content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  padding-top: 7px;
+  padding-bottom: 11px;
+}
+.filter_right_content_checkbox {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #EBEBEB;
+  margin: auto 13px;
+}
+.filter_right_content_checkbox_label {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #4D4D4D;
+}
+.filter_right_content_checkbox_container {
+  display: flex;
 }
 
 .filter_left_details[open] summary p {
