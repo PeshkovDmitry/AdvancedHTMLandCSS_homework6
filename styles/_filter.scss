@@ -180,5 +180,19 @@
 }
 
 .catalog_pagination {
-    height: 182px;
+    height: 134px;
+    padding-top: 48px;
+    padding-right: 26px;
+
+    &_element {
+        width: 284px;
+        height: 43px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #EBEBEB;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
 }
