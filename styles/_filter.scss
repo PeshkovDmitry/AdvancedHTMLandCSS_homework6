@@ -193,6 +193,15 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        &_num {
+            color: $contentColor7;
+            @include Lato300n(16px);
+
+            &_selected {
+                color: $contentColor1;
+            }
+        }
     }
 
 }

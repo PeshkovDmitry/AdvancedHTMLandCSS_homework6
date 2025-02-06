@@ -918,6 +918,17 @@
   justify-content: space-around;
   align-items: center;
 }
+.catalog_pagination_element_num {
+  color: #4D4D4D;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.catalog_pagination_element_num_selected {
+  color: #f16d7f;
+}
 
 .blank128 {
   height: 128px;
