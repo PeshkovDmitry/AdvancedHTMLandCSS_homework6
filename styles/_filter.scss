@@ -15,7 +15,8 @@
     z-index: 1;
 
     &_left {
-        width: 390px;
+        width: 380px;
+        padding-left: 18px;
         
         
         &_details {
@@ -53,13 +54,13 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            gap: 18px;
+            gap: 15px;
 
             &_summary {
                 display: flex;
-                padding-top: 8px;
-                padding-bottom: 8px;
-                padding-left: 16px;
+                padding-top: 9px;
+                padding-bottom: 11px;
+                padding-left: 11px;
                 border-left: 5px solid $contentColor1;
                 border-bottom: 1px solid #EBEBEB;
                 color: $contentColor7;
@@ -72,11 +73,14 @@
             }
 
             &_items {
-                margin: 24px 16px;
+                margin-top: 24px;
+                margin-bottom: 9px;
+                margin-left: 15px;
+                // margin: 24px 16px;
                 display: flex;
                 flex-direction: column;
                 justify-content:space-between;
-                gap: 11px;
+                gap: 10.5px;
 
             }
 
@@ -93,7 +97,6 @@
 
         &_trending {
             width: 160px;
-            margin-left: 5px;
         }
 
         &_size {
@@ -105,8 +108,9 @@
         }
         
         &_details {
-
-            background-color: $contentColor3;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
 
             &[open] {
                 box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
@@ -117,8 +121,8 @@
         &_summary {
             display: flex;
             padding-top: 13px;
-            padding-left: 13px;
-            padding-right: 13px;
+            padding-left: 10px;
+            padding-right: 0px;
             
             &_text {
                 @include Lato400n(14px);
@@ -136,7 +140,7 @@
             flex-direction: column;
             justify-content: space-between;
             gap: 6px;
-            padding-top: 7px;
+            padding-top: 11px;
             padding-bottom: 11px;
 
             &_checkbox {
@@ -147,7 +151,7 @@
                 width: 13px;
                 height: 13px;
                 border: 1px solid #EBEBEB;
-                margin: auto 13px;
+                margin: auto 9px;
 
                 &_label {
                     @include Lato400n(14px);
