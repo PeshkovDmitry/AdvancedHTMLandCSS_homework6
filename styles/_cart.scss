@@ -63,10 +63,12 @@
 
                     &:hover {
                         transform: rotate(45deg);
+                        transition: transform $transitionDelay;
                     }
 
                     &:hover path {
                         fill: $contentColor1;
+                        transition: fill $transitionDelay;
                     }
 
                 }
@@ -94,6 +96,7 @@
                     background-color: $contentColor1;
                     color: white;
                     border: none;
+                    transition: all $transitionDelay;
                 }
 
             }
@@ -110,6 +113,7 @@
                     background-color: $contentColor1;
                     color: white;
                     border: none;
+                    transition: all $transitionDelay;
                 }
 
             }
@@ -159,6 +163,7 @@
                     background-color: $contentColor1;
                     color: white;
                     border: none;
+                    transition: all $transitionDelay;
                 }
 
             }

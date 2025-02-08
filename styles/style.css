@@ -50,6 +50,7 @@
 }
 .header_left_group_button:hover svg path {
   fill: #f16d7f;
+  transition: fill 0.5s;
 }
 .header_right_group {
   margin: 24px 239px 14px auto;
@@ -64,6 +65,7 @@
 }
 .header_right_group_menu:hover svg path {
   fill: #f16d7f;
+  transition: fill 0.5s;
 }
 .header_right_group_login {
   margin-right: 14px;
@@ -72,6 +74,7 @@
 }
 .header_right_group_login:hover svg path {
   fill: #f16d7f;
+  transition: fill 0.5s;
 }
 .header_right_group_basket {
   position: relative;
@@ -80,6 +83,7 @@
 }
 .header_right_group_basket:hover svg path {
   fill: #f16d7f;
+  transition: fill 0.5s;
 }
 .header_right_group_basket_count {
   position: absolute;
@@ -570,10 +574,12 @@
 
 .footer_icons-icon:hover {
   background-color: #f16d7f;
+  transition: all 0.5s;
 }
 
 .footer_icons-icon:hover svg {
   fill: #fbfbfb;
+  transition: all 0.5s;
 }
 
 .breadcrumb {
@@ -1004,9 +1010,11 @@
 }
 .cart_products_list_item_delete_button:hover {
   transform: rotate(45deg);
+  transition: transform 0.5s;
 }
 .cart_products_list_item_delete_button:hover path {
   fill: #f16d7f;
+  transition: fill 0.5s;
 }
 .cart_products_buttons {
   display: flex;
@@ -1030,6 +1038,7 @@
   background-color: #f16d7f;
   color: white;
   border: none;
+  transition: all 0.5s;
 }
 .cart_products_buttons_continue {
   display: flex;
@@ -1043,6 +1052,7 @@
   background-color: #f16d7f;
   color: white;
   border: none;
+  transition: all 0.5s;
 }
 .cart_shipping_address {
   display: flex;
@@ -1092,6 +1102,7 @@
   background-color: #f16d7f;
   color: white;
   border: none;
+  transition: all 0.5s;
 }
 .cart_shipping_checkout {
   width: 360px;

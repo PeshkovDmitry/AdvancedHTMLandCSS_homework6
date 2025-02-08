@@ -31,9 +31,11 @@
 }
 
 .footer_icons-icon:hover {
-    background-color: $contentColor1
+    background-color: $contentColor1;
+    transition: all $transitionDelay;
 }
 
 .footer_icons-icon:hover svg {
     fill: $contentColor3;
+    transition: all $transitionDelay;
 }
