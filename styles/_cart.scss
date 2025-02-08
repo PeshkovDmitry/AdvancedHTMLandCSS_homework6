@@ -136,7 +136,66 @@
         }
 
         &_checkout {
+            width: 360px;
+            height: 214px;
+            margin-left: 128px;
+            margin-top: 55px;
+            background-color: $contentColor3;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
 
+            &_sub {
+                display: flex;
+                margin-top: 40px;
+                margin-right: 35px;
+                @include Lato400n(11px);
+                color: $contentColor2;
+
+                &_space {
+                    width: 25px;
+                }
+
+            }
+
+            &_grand {
+
+                display: flex;
+                margin-top: 12px;
+                margin-right: 38px;
+                @include Lato400n(16px);
+                color: $contentColor2;
+
+                &_price {
+                    color: $contentColor1;
+                }
+
+                &_space {
+                    width: 24px;
+                }
+
+            }
+
+            &_button {
+                width: 273px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @include Lato400n(14px);
+                letter-spacing: 1.2px;
+                color: white;
+                background-color: $contentColor1;
+
+                &_container {
+
+                    margin-top: 21px;
+                    margin-right: 43px;
+                    padding-top: 17px;
+                    border-top: 1px solid $contentColor7;
+    
+                }
+            } 
 
         }
     }
