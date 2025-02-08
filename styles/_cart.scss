@@ -60,6 +60,15 @@
                 &_delete_button {
                     width: 60px;
                     margin-top: 28px;
+
+                    &:hover {
+                        transform: rotate(45deg);
+                    }
+
+                    &:hover path {
+                        fill: $contentColor1;
+                    }
+
                 }
 
             }
@@ -79,7 +88,14 @@
                 justify-content: center;
                 height: 50px;
                 width: 235px;
-                border: 1px solid #A4A4A4
+                border: 1px solid #A4A4A4;
+
+                &:hover {
+                    background-color: $contentColor1;
+                    color: white;
+                    border: none;
+                }
+
             }
 
             &_continue {
@@ -88,7 +104,14 @@
                 justify-content: center;
                 width: 224px;
                 height: 50px;
-                border: 1px solid #A4A4A4
+                border: 1px solid #A4A4A4;
+
+                &:hover {
+                    background-color: $contentColor1;
+                    color: white;
+                    border: none;
+                }
+
             }
         }
 
@@ -131,6 +154,13 @@
                 @include Lato400n(11px);
                 color: $contentColor2;
                 border: 1px solid #A4A4A4;
+
+                &:hover {
+                    background-color: $contentColor1;
+                    color: white;
+                    border: none;
+                }
+
             }
 
         }

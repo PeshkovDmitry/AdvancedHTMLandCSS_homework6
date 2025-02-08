@@ -20,8 +20,12 @@
         &_button {
             background: none;
             border: none;
-        }
 
+            &:hover svg path {
+                fill: $contentColor1;
+            }
+
+        }
 
     }
 
@@ -35,18 +39,32 @@
         &_menu {
             background: none;
             border: none;
+
+            &:hover svg path {
+                fill: $contentColor1;
+            }
+
         }
 
         &_login {
             margin-right: 14px;
             background: none;
             border: none;
+
+            &:hover svg path {
+                fill: $contentColor1;
+            }
+
         }
 
         &_basket {
             position: relative;
             background: none;
             border: none;
+
+            &:hover svg path {
+                fill: $contentColor1;
+            }
 
             &_count {
                 position: absolute;
