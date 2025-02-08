@@ -969,13 +969,21 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.4px;
+  line-height: 31px;
   color: #4D4D4D;
 }
 .cart_products_list_item_description_price {
   color: #f16d7f;
 }
 .cart_products_list_item_description_quantity {
+  margin-left: 26px;
+  padding-left: 15px;
+  padding-right: 16px;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   border: 1px solid #EAEAEA;
 }
 .cart_products_list_item_delete_button {
@@ -1004,7 +1012,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 225px;
+  width: 224px;
   height: 50px;
   border: 1px solid #A4A4A4;
 }
