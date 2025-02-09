@@ -1183,6 +1183,128 @@
   border-top: 1px solid #4D4D4D;
 }
 
+.registration__container {
+  width: 1141px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding-top: 64px;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+.registration__databox {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.registration__description {
+  width: 652px;
+}
+.registration__smallheader {
+  margin-bottom: 20px;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  font-weight: 100;
+}
+.registration__input {
+  height: 40px;
+  margin-bottom: 22px;
+  padding-left: 16px;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.6px;
+  font-weight: 100;
+}
+.registration__fieldset {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: none;
+}
+.registration__radiolabel {
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.2px;
+  font-weight: 100;
+  margin-right: 15px;
+}
+.registration__radio {
+  margin-left: 3px;
+  margin-right: 9px;
+  scale: 1.35;
+  accent-color: #f16d7f;
+}
+.registration__smalltext {
+  margin-bottom: 33px;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.6px;
+  font-weight: 100;
+}
+.registration__joinbutton {
+  width: 168px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 97px;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+  font-weight: 100;
+  background-color: #f16d7f;
+  color: white;
+  border: none;
+}
+.registration__bigheader {
+  margin-bottom: 22px;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  font-weight: 100;
+}
+.registration__text {
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-bottom: 23px;
+  font-weight: 100;
+  letter-spacing: 0.3px;
+}
+.registration__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.registration__item {
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px;
+  font-weight: 100;
+  margin-bottom: 15px;
+  letter-spacing: 0.1px;
+}
+.registration__item::before {
+  content: url("/img/vector.svg");
+  margin-right: 22px;
+}
+
 .blank128 {
   height: 128px;
 }

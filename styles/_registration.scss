@@ -1,0 +1,112 @@
+.registration {
+
+    &__container {
+
+        width: $totalWidth1;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding-top: 64px;
+        padding-left: 230px;
+        padding-right: 230px;
+
+    }
+
+    &__databox {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__description {
+        width: 652px;
+    }
+
+    &__smallheader {
+        margin-bottom: 20px;
+        @include Lato400n(16px, 19.2px);
+        font-weight: 100;
+    }
+
+    &__input {
+        height: 40px;
+        margin-bottom: 22px;
+        padding-left: 16px;
+        @include Lato400n(13px, 15.6px);
+        font-weight: 100;
+    }
+
+    &__fieldset {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border: none;
+    }
+
+    &__radiolabel {
+        @include Lato400n(11px, 13.2px);
+        font-weight: 100;
+        margin-right: 15px;
+    }
+
+    &__radio {
+        margin-left: 3px;
+        margin-right: 9px;
+        scale: 1.35;
+        accent-color: $contentColor1;
+    }
+
+    &__smalltext {
+        margin-bottom: 33px;
+        @include Lato400n(13px, 15.6px);
+        font-weight: 100;
+    }
+
+    &__joinbutton {
+        width: 168px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 97px;
+        @include Lato400n(14px, 16.8px);
+        font-weight: 100;
+        background-color: $contentColor1;
+        color: white;
+        border: none;
+    }
+
+    &__bigheader {
+        margin-bottom: 22px;
+        @include Lato400n(24px, 28.8px);
+        font-weight: 100;
+
+    }
+
+    &__text {
+        @include Lato400n(24px, 28.8px);
+        margin-bottom: 23px;
+        font-weight: 100;
+        letter-spacing: 0.3px;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    &__item {
+
+        @include Lato400n(24px, 28.8px);
+        font-weight: 100;
+        margin-bottom: 15px;
+        letter-spacing: 0.1px;
+
+        &::before {
+            content: url("/img/vector.svg");
+            margin-right: 22px;
+        }
+
+    }
+
+}
