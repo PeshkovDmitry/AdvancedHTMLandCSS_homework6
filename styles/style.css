@@ -1267,6 +1267,16 @@
   color: white;
   border: none;
 }
+.registration__joinbutton:hover {
+  background-color: #fbfbfb;
+  border: 1px solid #4D4D4D;
+  color: #4D4D4D;
+  transition: all 0.5s;
+}
+.registration__joinbutton:hover svg path {
+  fill: #4D4D4D;
+  transition: all 0.5s;
+}
 .registration__bigheader {
   margin-bottom: 22px;
   font-family: Lato;

@@ -74,6 +74,18 @@
         background-color: $contentColor1;
         color: white;
         border: none;
+
+        &:hover {
+            background-color: $contentColor3;
+            border: 1px solid $contentColor7;
+            color: $contentColor7;
+            transition: all $transitionDelay;
+        }
+
+        &:hover svg path {
+            fill: $contentColor7;
+            transition: all $transitionDelay;
+        }
     }
 
     &__bigheader {
