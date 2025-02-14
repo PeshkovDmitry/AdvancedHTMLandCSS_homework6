@@ -1,4 +1,5 @@
 .header {
+
     width: $totalWidth;
     margin: 0px auto;
     background-color: $contentColor2;
@@ -90,5 +91,19 @@
 
 }
 
+@media (max-width: 1599px) and (min-width: 768px) {
+	
+    .header {
+		width: 768px;
+	
+        &_left_group {
+            margin: 18px auto 18px 32px;
+        }
+    
+        &_right_group {
+            margin: 27px 41px 18px auto;
+        }
+    
+    }
 
-
+}

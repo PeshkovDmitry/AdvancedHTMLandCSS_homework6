@@ -1,41 +1,66 @@
 .footer {
+
     width: $totalWidth;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
     position: relative;
     background-color: $contentColor2;
+
+    &-text {
+        margin: 30px auto 30px 235px;
+        color: $contentColor3;
+        letter-spacing: 0.6px;
+        @include Lato400n(16px);
+    }
+    
+    &_icons {
+
+        margin: 24px 230px 23px auto;
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+
+        &-icon {
+
+            height: 32px;
+            width: 32px;
+            background-color: $contentColor3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+                background-color: $contentColor1;
+                transition: all $transitionDelay;
+            }
+            
+            &:hover svg {
+                fill: $contentColor3;
+                transition: all $transitionDelay;
+            }
+
+        }
+                
+    }
+
 }
 
-.footer-text {
-    margin: 30px auto 30px 235px;
-    color: $contentColor3;
-    letter-spacing: 0.6px;
-    @include Lato400n(16px);
+@media (max-width: 1599px) and (min-width: 768px) {
+
+    .footer {
+
+		width: 768px;
+
+        &-text {
+            margin: 30px auto 30px 32px;
+        }
+    
+        &_icons {
+            margin: 24px 34px 23px auto;
+        }
+
+	}
+    
 }
 
-.footer_icons {
-    margin: 24px 230px 23px auto;
-    display: flex;
-    flex-direction: row;
-    gap: 7px;
-}
-
-.footer_icons-icon {
-    height: 32px;
-    width: 32px;
-    background-color: $contentColor3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_icons-icon:hover {
-    background-color: $contentColor1;
-    transition: all $transitionDelay;
-}
-
-.footer_icons-icon:hover svg {
-    fill: $contentColor3;
-    transition: all $transitionDelay;
-}

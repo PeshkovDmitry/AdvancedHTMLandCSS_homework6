@@ -1,42 +1,69 @@
 .products {
+
     width: 1140px;
     margin: 96px auto 0px;
-}
 
-.products_header3 {
-    color: $contentColor2;
-    margin-bottom: 6px;
-    text-align: center;
-    @include Lato400n(30px);
-}
+    &_header3 {
+        color: $contentColor2;
+        margin-bottom: 6px;
+        text-align: center;
+        @include Lato400n(30px);
+    }
+    
+    &_subheader {
+        color: $contentColor7;
+        margin-bottom: 48px;
+        text-align: center;
+        @include Lato400n(14px);
+    }
 
-.products_subheader {
-    color: $contentColor7;
-    margin-bottom: 48px;
-    text-align: center;
-    @include Lato400n(14px);
 }
 
 .cards {
+
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
 }
 
 .card {
+
     background-color: $contentColor3;
     position: relative;
-}
 
-.card_image__selected {
-    width: 360px;
-    height: 420px;
-    position: absolute;
-    top: 0px;
-    background-color: $contentColor7;
-    display: none;
-    justify-content: center;
-    align-items: center;
+    &_image__selected {
+        width: 360px;
+        height: 420px;
+        position: absolute;
+        top: 0px;
+        background-color: $contentColor7;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_header {
+        width: 315px;
+        color: $contentColor5;
+        margin: 20px 18px 0px;
+        @include Lato400n(13px);
+    }
+    
+    &_text {
+        width: 315px;
+        color: $contentColor7;
+        margin: 13px 18px;
+        @include Lato300n(14px);
+    }
+    
+    &_price {
+        width: 315px;
+        color: $contentColor1;
+        margin: 18px 18px 20px;
+        @include Lato400n(16px);
+    }
+
 }
 
 .card:hover .card_image__selected {
@@ -55,27 +82,6 @@
     @include Lato400n(14px);
 }
 
-.card_header {
-    width: 315px;
-    color: $contentColor5;
-    margin: 20px 18px 0px;
-    @include Lato400n(13px);
-}
-
-.card_text {
-    width: 315px;
-    color: $contentColor7;
-    margin: 13px 18px;
-    @include Lato300n(14px);
-}
-
-.card_price {
-    width: 315px;
-    color: $contentColor1;
-    margin: 18px 18px 20px;
-    @include Lato400n(16px);
-}
-
 .products_button_container {
     display: flex;
     align-items: center;
@@ -83,24 +89,66 @@
 }
 
 .browse_all_button {
+
     width: 212px;
     margin-top: 48px;
     margin-bottom: 60px;
     border: 2px solid $contentColor1;
     background-color: $contentColor3;
+
+    &:hover {
+        background-color: $contentColor1;
+    }
+
+    &_text {
+        margin: 15px auto;
+        color: $contentColor1;
+        text-align: center;
+        @include Lato400n(16px);
+    }
+
 }
 
-.browse_all_button:hover {
-    background-color: $contentColor1;
-}
-
-.browse_all_button_text {
-    margin: 15px auto;
-    color: $contentColor1;
-    text-align: center;
-    @include Lato400n(16px);
-}
 
 .browse_all_button:hover .browse_all_button_text {
     color: $contentColor3;
+}
+
+@media (max-width: 1599px) and (min-width: 768px) {
+
+	.products {
+
+		width: 768px;
+		margin: 110px auto 0px;
+
+        &_subheader {
+            margin-bottom: 73px;
+        }
+
+	}
+
+	.cards {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 16px;
+	}
+
+    .card {
+
+        &_header {
+            margin: 25px auto 0px 18px;
+        }
+
+        &_price {
+            margin: 18px auto 20px 18px;
+        }
+
+    }
+
+	.browse_all_button {
+		margin-top: 32px;
+		margin-bottom: 70px;
+	}
+    
 }
