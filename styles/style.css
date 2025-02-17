@@ -777,6 +777,19 @@
   margin-left: 23px;
 }
 
+@media (max-width: 1599px) and (min-width: 768px) {
+  .image_slide {
+    width: 768px;
+    margin: 0px auto;
+    padding-top: 28px;
+    padding-bottom: 42px;
+  }
+  .image_slide_img {
+    margin-left: 0px;
+    width: 466px;
+    height: 565px;
+  }
+}
 .product_description {
   position: relative;
   width: 1141px;
