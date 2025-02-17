@@ -108,7 +108,7 @@
 	.subscribe {
 
 		width: 768px;
-        height: 693px;
+        height: auto;
 		margin: 0px auto;
 		display: flex;
 		flex-direction: column;
@@ -136,7 +136,11 @@
             align-items: center;
 
             &_form {
-                margin-top: 27px;
+                margin-top: 22px;
+            }
+
+            &_p {
+                margin-top: 8px;
             }
             
         }

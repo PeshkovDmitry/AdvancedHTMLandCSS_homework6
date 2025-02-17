@@ -60,7 +60,7 @@
 	.offer {
 
 		width: 768px;
-		margin: 65px auto 0px;
+		margin: 19px auto 0px;
 		gap: 20px;
 
         &_for_men_background {
@@ -85,6 +85,10 @@
             width: 735px;
             height: 116px;
             background-size: contain;
+        }
+
+        &_header4 {
+            margin-bottom: 2px;
         }
 
 	}
