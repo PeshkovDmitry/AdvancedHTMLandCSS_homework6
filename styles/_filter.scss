@@ -205,3 +205,51 @@
     }
 
 }
+
+@media (max-width: 1599px) and (min-width: 768px) {
+
+    .catalog_container {
+        width: $totalTabletWidth;
+    }
+
+    .filter {
+        width: $totalTabletWidth;
+        margin-top: 9px;
+        margin-left: 0px;
+        
+        &_left {
+
+            padding-left: 0px;
+
+            &_details {
+                width: 360px;
+            }
+            
+        }
+
+        &_right {
+
+            padding-left: 67px;
+    
+        }
+
+
+    }
+
+    .catalog_pagination {
+
+        height: 107px;
+        padding-top: 40px;
+        padding-right: 0px;
+    
+        &_element {
+            width: 280px;
+            height: 43px;
+            margin-left: 254px;
+        }
+    
+    }
+
+
+
+}
