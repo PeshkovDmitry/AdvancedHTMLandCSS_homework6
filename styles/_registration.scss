@@ -122,3 +122,52 @@
     }
 
 }
+
+@media (max-width: 1599px) and (min-width: 768px) {
+
+    .registration {
+
+        &__container {
+    
+            width: $totalTabletWidth;
+            margin: 0px auto;
+            padding-top: 40px;
+            padding-left: 41px;
+            padding-right: 10px;
+    
+        }
+    
+        &__databox {
+            width: 575px;
+        }
+
+        &__bigheader {
+            margin-left: 22px;
+            margin-bottom: 32px;
+            @include Lato400n(16px);    
+        }
+    
+        &__text {
+            margin-left: 22px;
+            margin-bottom: 23px;
+            @include Lato400n(16px);
+            line-height: 19px;
+        }
+    
+        &__list {
+            margin-left: 22px;
+        }
+
+        &__item {
+
+            width: 350px;
+            margin-bottom: 23px;
+            @include Lato400n(16px);
+            line-height: 17.5px;
+            
+
+        }
+        
+    }
+
+}

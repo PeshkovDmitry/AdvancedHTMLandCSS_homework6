@@ -1575,6 +1575,50 @@
   margin-right: 22px;
 }
 
+@media (max-width: 1599px) and (min-width: 768px) {
+  .registration__container {
+    width: 768px;
+    margin: 0px auto;
+    padding-top: 40px;
+    padding-left: 41px;
+    padding-right: 10px;
+  }
+  .registration__databox {
+    width: 575px;
+  }
+  .registration__bigheader {
+    margin-left: 22px;
+    margin-bottom: 32px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .registration__text {
+    margin-left: 22px;
+    margin-bottom: 23px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 19px;
+  }
+  .registration__list {
+    margin-left: 22px;
+  }
+  .registration__item {
+    width: 350px;
+    margin-bottom: 23px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 17.5px;
+  }
+}
 .blank128 {
   height: 128px;
 }
