@@ -109,3 +109,41 @@
     }
 
 }
+
+@media (max-width: 1599px) and (min-width: 768px) {
+
+    .product_description {
+        width: $totalTabletWidth;
+        margin: 0px auto;
+        height: 565px;
+    
+        &_container {
+            width: $totalTabletWidth;
+            top: -13px;
+        }
+    
+        &_price {
+            margin-top: 33px;
+            margin-right: 0px;
+        }
+   
+        &_selector {
+            margin-top: 64px;
+            margin-right: 0px;
+        }
+    
+        &_button {
+    
+            &_logo {
+                margin-left: 23px;
+            }
+    
+            &_text {
+                margin-right: 54px;
+            }
+    
+        }
+    
+    }
+
+}
