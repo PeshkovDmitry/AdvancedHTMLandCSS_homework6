@@ -1032,6 +1032,19 @@
     height: 565px;
   }
 }
+@media (max-width: 767px) and (min-width: 375px) {
+  .image_slide {
+    width: 375px;
+    margin: 0px auto;
+    padding-top: 86px;
+    padding-bottom: 84px;
+  }
+  .image_slide_img {
+    margin-left: 0px;
+    width: 374px;
+    height: 454px;
+  }
+}
 .product_description {
   position: relative;
   width: 1141px;
@@ -1168,6 +1181,67 @@
   .product_description_selector {
     margin-top: 64px;
     margin-right: 0px;
+  }
+  .product_description_button_logo {
+    margin-left: 23px;
+  }
+  .product_description_button_text {
+    margin-right: 54px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .product_description {
+    width: 375px;
+    margin: 0px auto;
+    height: 600px;
+  }
+  .product_description_container {
+    width: 375px;
+    background-color: white;
+    top: 0px;
+  }
+  .product_description_text {
+    margin-top: 33px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    letter-spacing: -0.15px;
+    line-height: 20px;
+  }
+  .product_description_price {
+    margin-top: 37px;
+    margin-right: 0px;
+  }
+  .product_description_line {
+    width: 200px;
+    height: 1px;
+    margin-top: 30px;
+    background: #F1E4E6;
+    border: 1px solid #EAEAEA;
+  }
+  .product_description_selector {
+    margin-top: 45px;
+    margin-right: 0px;
+    padding-right: 10px;
+    gap: 26px;
+  }
+  .product_description_selector_item_narrow {
+    margin-top: 5px;
+    margin-left: 9px;
+  }
+  .product_description_selector_item_text {
+    color: #4D4D4D;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .product_description_button {
+    margin-top: 62px;
+    margin-bottom: 65px;
+    width: 212px;
+    height: 48px;
   }
   .product_description_button_logo {
     margin-left: 23px;
@@ -1943,8 +2017,14 @@
   .blank132 {
     height: 81px;
   }
+  .blank128 {
+    height: 60px;
+  }
   .hideonphone {
     display: none;
+  }
+  .cards_custom_gap {
+    gap: 0px;
   }
 }
 * {

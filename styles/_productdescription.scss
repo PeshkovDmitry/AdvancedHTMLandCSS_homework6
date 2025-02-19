@@ -147,3 +147,83 @@
     }
 
 }
+
+@media (max-width: 767px) and (min-width: 375px) {
+
+    .product_description {
+
+        width: $totalPhoneWidth;
+        margin: 0px auto;
+        height: 600px;
+    
+        &_container {
+            width: $totalPhoneWidth;
+            background-color: white;
+            top: 0px;
+        }
+
+        &_text {
+            margin-top: 33px;
+            padding-left: 25px;
+            padding-right: 25px;
+            text-align: center;
+            letter-spacing: -0.15px;
+            line-height: 20px;
+        }
+    
+        &_price {
+            margin-top: 37px;
+            margin-right: 0px;
+        }
+
+        &_line {
+            width: 200px;
+            height: 1px;
+            margin-top: 30px;
+            background: $contentColor4;
+            border: 1px solid #EAEAEA;
+        }
+   
+        &_selector {
+
+            margin-top: 45px;
+            margin-right: 0px;
+            padding-right: 10px;
+            gap: 26px;
+
+            &_item {
+                
+                &_narrow {
+                    margin-top: 5px;
+                    margin-left: 9px;
+                }
+    
+                &_text {
+                    color: $contentColor7;
+                    @include Lato400n(10px, 17px);
+                }
+    
+            }
+
+        }
+    
+        &_button {
+
+            margin-top: 62px;
+            margin-bottom: 65px;
+            width: 212px;
+            height: 48px;
+    
+            &_logo {
+                margin-left: 23px;
+            }
+    
+            &_text {
+                margin-right: 54px;
+            }
+    
+        }
+    
+    }
+
+}
