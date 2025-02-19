@@ -250,6 +250,82 @@
     
     }
 
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+    
+    .catalog_container {
+        width: $totalPhoneWidth;
+    }
+
+    .filter {
+        width: $totalPhoneWidth;
+        margin-top: 9px;
+        margin-left: 0px;
+        
+        &_left {
+
+            padding-left: 0px;
+
+            &_details {
+                width: auto;
+            }
+
+            &_summary_logo {
+                margin-top: 9px;
+                margin-left: 2px;
+                scale: 2.5;
+            }
+            
+        }
+
+        &_right {
+
+            padding-left: auto;
+
+            &_summary {
+                padding-top: 15px;
+                padding-left: 8px;
+                
+                &_text {
+                    @include Lato400n(12px);
+                }
+    
+                &_logo {
+                    margin-top: 4px;
+                    margin-left: 10px;                    
+                }
+            }
+
+            &_trending {
+                width: 139px;
+            }
+    
+            &_size {
+                width: 68px;
+            }
+    
+            &_price {
+                width: 69px;
+            }
+    
+        }
 
 
+    }
+
+    .catalog_pagination {
+
+        height: 107px;
+        padding-top: 40px;
+        padding-right: 0px;
+    
+        &_element {
+            width: 282px;
+            height: 43px;
+            margin-left: 45px;
+        }
+    
+    }
+    
 }

@@ -46,6 +46,31 @@
         }
 
     }
+
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+
+    .breadcrumb {
+        
+        width: $totalPhoneWidth;
+        flex-direction: column;
+        align-items: center;
+
+        &_left_title {
+            padding-top: 24px;
+            padding-left: 0px;
+            padding-bottom: 31px;
+        }
+
+        &_right_title {
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 46px;
+        }
+
+    }
+
 }
 
 
