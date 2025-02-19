@@ -107,3 +107,21 @@
     }
 
 }
+
+@media (max-width: 767px) and (min-width: 375px) {
+
+    .header {
+		width: $totalPhoneWidth;
+	
+        &_left_group {
+            margin-left: 15px;
+        }
+    
+        &_right_group {
+            margin-top: 16px;
+            margin-right: 16px;
+        }
+    
+    }
+
+}

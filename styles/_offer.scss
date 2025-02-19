@@ -94,3 +94,46 @@
 	}
 
 }
+
+@media (max-width: 767px) and (min-width: 375px) {
+
+    .offer {
+
+		width: $totalPhoneWidth;
+		gap: 33px;
+
+        &_for_men_background {
+            width: 343px;
+            height: 247px;
+            background-position: center;
+            background-size: cover;
+        }
+    
+        &_for_women_background {
+            width: 343px;
+            height: 247px;
+            background-position: center;
+            background-size: cover;
+        }
+    
+        &_for_kids_background {
+            width: 343px;
+            height: 247px;
+            background-position: center;
+            background-size: cover;
+        }
+    
+        &_accesories_background {
+            width: 343px;
+            height: 111px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        &_header4 {
+            margin-bottom: 2px;
+        }
+
+	}
+
+}

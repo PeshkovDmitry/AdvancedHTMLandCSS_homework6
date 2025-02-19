@@ -112,3 +112,38 @@
     }
     
 }
+
+@media (max-width: 767px) and (min-width: 375px) {
+    
+    .main {
+
+        &_banner {
+            margin: 148px 56px 152px auto;
+            padding-left: 18px;
+        }
+
+        &_logo {
+
+            width: $totalPhoneWidth;
+
+            &_header1 {
+                font-size: 38px;
+                letter-spacing: 0.5px;
+            }
+        
+            &_header2 {
+                font-size: 20px;
+                line-height: 13px;
+                margin-bottom: 2px;
+            }
+        
+            &_span {
+                // color: #f16d7f;
+                letter-spacing: 0px;
+            }
+    
+        }
+
+    }
+
+}
