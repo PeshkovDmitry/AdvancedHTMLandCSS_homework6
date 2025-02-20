@@ -1005,6 +1005,11 @@
     padding-right: 0px;
     padding-bottom: 46px;
   }
+  .no_right_title {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 70px;
+  }
 }
 .image_slide {
   width: 1600px;
@@ -1814,6 +1819,109 @@
   }
   .cart_shipping_checkout {
     margin-left: 15px;
+    margin-top: 48px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .cart_container {
+    width: 375px;
+    flex-direction: column;
+  }
+  .cart_products_list {
+    gap: 31px;
+    padding-top: 38px;
+    padding-left: 8px;
+    padding-bottom: 31px;
+  }
+  .cart_products_list_item {
+    width: 358px;
+    margin-left: 0px;
+    margin-right: 17px;
+  }
+  .cart_products_list_item_image {
+    height: 188px;
+    width: 144px;
+  }
+  .cart_products_list_item_description {
+    margin-left: 18px;
+    margin-top: 14px;
+  }
+  .cart_products_list_item_description_title {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 22px;
+    letter-spacing: 0.6px;
+  }
+  .cart_products_list_item_description_text {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 20px;
+  }
+  .cart_products_list_item_description_quantity {
+    width: 8px;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-left: 9px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+  }
+  .cart_products_list_item_description_quantity_container {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cart_products_list_item_delete_button {
+    scale: 0.65;
+    margin-top: 14px;
+  }
+  .cart_products_buttons {
+    margin-bottom: 28px;
+    justify-content: space-between;
+  }
+  .cart_products_buttons_clear {
+    height: 33px;
+    width: 174px;
+    margin-left: 8px;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cart_products_buttons_continue {
+    width: 175px;
+    height: 33px;
+    margin-right: 8px;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cart_shipping {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 98px;
+  }
+  .cart_shipping_address {
+    margin-top: 20px;
+    margin-left: 9px;
+  }
+  .cart_shipping_checkout {
+    margin-left: 9px;
     margin-top: 48px;
   }
 }
